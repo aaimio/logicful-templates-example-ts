@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "jsx": "react-jsx",
+      "jsxImportSource": "logicful-templates",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "types": ["logicful-templates"],
+    },
+  }
+  

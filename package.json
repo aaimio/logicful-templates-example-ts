@@ -1,0 +1,24 @@
+{
+  "name": "logicful-templates-example-ts",
+  "version": "1.0.0",
+  "description": "An example project demonstrating how to use the logicful-templates library when using TypeScript",
+  "private": true,
+  "scripts": {
+    "compile": "ts-node scripts/compile-templates.ts",
+    "prepare": "husky install"
+  },
+  "author": "Aaron Imming <aaim@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/rimraf": "^3.0.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "logicful-templates": "^1.0.1",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,md}": "prettier --write"
+  }
+}
