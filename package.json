@@ -13,7 +13,7 @@
     "@types/rimraf": "^3.0.2",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
-    "logicful-templates": "^1.0.1",
+    "logicful-templates": "^1.0.5",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.4.0",

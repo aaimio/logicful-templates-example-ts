@@ -8,7 +8,7 @@
       "forceConsistentCasingInFileNames": true,
       "skipLibCheck": true,
       "strict": true,
-      "types": ["logicful-templates"],
+      "types": ["./node_modules/logicful-templates/typings/html"],
     },
   }
   
