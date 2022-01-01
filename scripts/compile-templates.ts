@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { compileTemplate } from 'logicful-templates';
+import LogicfulTemplates from 'logicful-templates';
 import path from 'path';
 import rimraf from 'rimraf';
 
@@ -97,7 +97,7 @@ const compileTemplates = async () => {
       continue;
     }
 
-    const htmlContents = compileTemplate(() => module.default(), { pretty: true });
+    const htmlContents = LogicfulTemplates.compileTemplate(() => module.default(), { pretty: true });
     const htmlFileName = `${path.parse(path.basename(currentPath)).name}.html`;
     const htmlOutputPath = path.resolve(distPath, htmlFileName);
 

@@ -10,10 +10,11 @@
   "author": "Aaron Imming <aaim@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^17.0.38",
     "@types/rimraf": "^3.0.2",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
-    "logicful-templates": "^1.0.5",
+    "logicful-templates": "^2.0.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.4.0",

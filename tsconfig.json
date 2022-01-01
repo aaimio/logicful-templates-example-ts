@@ -2,13 +2,12 @@
     "compilerOptions": {
       "target": "ES6",
       "jsx": "react-jsx",
-      "jsxImportSource": "logicful-templates",
+      "jsxImportSource": "react",
       "module": "commonjs",
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
       "skipLibCheck": true,
-      "strict": true,
-      "types": ["./node_modules/logicful-templates/typings/html"],
+      "strict": true
     },
   }
   
