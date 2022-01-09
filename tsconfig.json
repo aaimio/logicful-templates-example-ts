@@ -9,5 +9,8 @@
       "skipLibCheck": true,
       "strict": true
     },
+    "ts-node": {
+      "files": true
+    }
   }
   

@@ -1,4 +1,4 @@
-An example project demonstrating how to use the logicful-templates library when using TypeScript
+An example project demonstrating how to use the logicful-templates library using TypeScript
 
 For the full documentation:
 
